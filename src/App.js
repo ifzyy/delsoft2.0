@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import Navigation from './components/Nav';
 import Hero from './components/Hero';
 import Main from './components/Main';

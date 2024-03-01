@@ -75,3 +75,20 @@ li{
 .grid-it-2{
   grid-template-columns: 50% 45%;
 }
+.dark-overlay {
+  position: relative;
+}
+
+.dark-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
+}
+
+.carousel-caption{
+  bottom: 40%;
+}

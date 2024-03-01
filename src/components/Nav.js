@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import logo from '../images/logo.png';
 
 const Navigation = () => {
