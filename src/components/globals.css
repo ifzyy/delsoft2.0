@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body{
+  overflow-x: hidden;
+}
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+* {
+  scroll-behavior: smooth;
+
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-image: url("images/hero.jpg");
+   background-size: 140vh;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: black !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 901px) {
+  body {
+    background-image: url("images/hero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #252627;
+    color: white !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+a{
+  text-decoration: none !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+  font-size: 20px;
+  color: white !important;
+}
+.navbar {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.636);
+  color: white;
+  display: flex  !important;
+  justify-content: space-between !important;
+  transition: 0.3s ease-in;
+}
+/* .grad-bg {
+  background-image: linear-gradient(to right, #1a1a1a 70%, transparent);
+}
+
+.overlay {
+  background-image: linear-gradient(to right, #1a1a1a , transparent);
+  height: 100%;
+  width: 100%;
+} */
+footer {
+  border: 1px solid rgba(255, 255, 255, 0.636);
+}
+
+li{
+  list-style-type:  disc !important ;
+}
+.grid-it{
+  grid-template-columns: 40% 60%;
+}
+.grid-it-2{
+  grid-template-columns: 50% 45%;
+}
