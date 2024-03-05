@@ -19,11 +19,11 @@ const Hero = () => {
   };
 
   return (
-    <div className="mb-[50px] ">
+    <div className="mb-[50px] " id="home">
       <Carousel activeIndex={index} onSelect={handleSelect} fade>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
           <div className="dark-overlay">
-            <img src={heroOne} className="d-block w-100 h-[100vh]" alt="" />
+            <img src={heroThree} className="d-block w-100 h-[100vh]" alt="" />
           </div>
           <Carousel.Caption >
             <div className="">
@@ -43,7 +43,7 @@ const Hero = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
           <div className="dark-overlay">
             <img src={heroTwo} className="d-block w-100 h-[100vh]" alt="" />
           </div>
@@ -65,9 +65,9 @@ const Hero = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
           <div className="dark-overlay">
-            <img src={heroThree} className="d-block w-100 h-[100vh]" alt="" />
+            <img src={heroOne} className="d-block w-100 h-[100vh]" alt="" />
           </div>
           <Carousel.Caption >
             <div className="flex flex-col items-center">
