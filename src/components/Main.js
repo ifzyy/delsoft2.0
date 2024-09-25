@@ -20,15 +20,7 @@ const Main = () => {
             OUR HISTORY
           </h2>
           <p className="text-[#252627] lg:p-[20px] lg:text-[18px] text-[15px] text-center p-[20px]">
-            For 25 years, Delsoft Limited has been Lagos' tech pioneer, crafting
-            software solutions and AI marvels that push boundaries. Imagine, not
-            just coding, but breathing life into digital dreams, where
-            algorithms dance and machines learn, shaping the future, one line of
-            code at a time. We're not just tech geeks, we're Lagos' innovation
-            alchemists, transforming ideas into reality. From software
-            applications and banking bots to healthcare heroes, our software and
-            AI creations are making waves, one megabyte at a time. We’ve got
-            your technology solutions covered.
+          Since 1997, Delsoft Limited has been Lagos' tech pioneer, crafting software solutions, business applications and AI marvels that push boundaries. Imagine, not just coding, but breathing life into digital dreams, where algorithms dance and machines learn, shaping the future, one line of code at a time. We're not just tech geeks, we're Nigeria's innovation alchemists, transforming ideas into reality. From software applications and banking bots to healthcare heroes, our software and AI creations are making waves, one megabyte at a time. We’ve got your technology solutions covered. We have supported many listed Companies and National and Sub-national Government Ministries, Departments and Agencies pioneering ground breaking critical applications doting Nigeria technology history. We always seek challenging technical nuts to crack, which we do with precision and our timeless methodology. No project too big or complex, we crack them all.
           </p>
         </div>
         <div
